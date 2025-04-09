@@ -1,6 +1,7 @@
 import logging.config
 import os
 import base64
+from Crypto.Hash import HMAC, SHA256, SHA384, SHA512
 from typing import List
 from dotenv import load_dotenv
 from jose import jwt
